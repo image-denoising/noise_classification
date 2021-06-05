@@ -8,6 +8,8 @@
 We opted to use the LeNet-5 architecture.
 "LeNet-5 CNN architecture is made up of 7 layers. The layer composition consists of 3 convolutional layers, 2 subsampling layers and 2 fully connected layers."
 
+<img src="images/0.PNG" alt="images grayscale cnn model">
+
 <h3> - Result </h3>
 We carried out the training of our model on a dataset of:
 - 38,000 images for training
@@ -38,10 +40,22 @@ Epoch 25/25 <br>
 For the test phase we used a dataset of 9500 images and the classification result obtained is 100%.
 here are some examples of gray images with and without noise:
 
+  <h4> Grayscale image without noise </h4>
+  <br>
+  <img src="images/no_noise_gray.png" alt="test image">
+  <br>
+  
+   <h4> Grayscale image with salt & pepper noise </h4>
+   <br>
+   <img src="images/sp_noise_gray.png" alt="test image">
+   <br>
+
 <h2> Color images: accuracy = 74% </h2>
 <h3> - Architecture of models of convolution networks </h3>
 We opted to use the LeNet-5 architecture.
 "LeNet-5 CNN architecture is made up of 7 layers. The layer composition consists of 3 convolutional layers, 2 subsampling layers and 2 fully connected layers."
+
+<img src="images/1.PNG" alt="images color cnn model">
 
 <h3> - Result </h3>
 We carried out the training of our model on a dataset of:
@@ -77,3 +91,18 @@ For the test phase we used a dataset of 14,250 images and the following results:
 - For the class of images with salt and pepper noise: 99.6%
 
 here are some examples of gray images with and without noise:
+
+   <h4> Color image without noise </h4>
+   <br>
+   <img src="images/no_noise_color.jpg" alt="test image">
+   <br>
+   
+   <h4> Color image with gaussian noise </h4>
+   <br>
+   <img src="images/gauss_noise_color.jpg" alt="test image">
+   <br>
+   
+   <h4> Color image with salt & pepper noise </h4>
+   <br>
+   <img src="images/sp_noise_color.jpg" alt="test image">
+   <br>
